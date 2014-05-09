@@ -1,0 +1,53 @@
+body {
+	background: #1c1e20;
+	background: -moz-radial-gradient(center, circle cover, #6F3E3E 0%, #1c1e20 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #6F3E3E), color-stop(100%, #1c1e20));
+	background: -webkit-radial-gradient(center, circle cover, #6F3E3E 0%, #1c1e20 100%);
+	background: -o-radial-gradient(center, circle cover, #6F3E3E 0%, #1c1e20 100%);
+	background: -ms-radial-gradient(center, circle cover, #6F3E3E 0%, #1c1e20 100%);
+	background: radial-gradient(center, circle cover, #6F3E3E 0%, #1c1e20 100%);
+}
+
+#intesys-logo {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 100;
+	display: block;
+	max-width: 100%
+
+}
+
+.reveal section img.no-canvas {
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #AC1414; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #AC1414; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #AC1414; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #AC1414; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #EE1E1E; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #EE1E1E; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #EE1E1E; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #EE1E1E; }
