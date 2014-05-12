@@ -150,7 +150,17 @@ body {
   display: block;
   max-width: 100%; }
 
-.reveal section img.no-canvas {
+.slides section img.no-canvas {
   border: 0;
   background: none;
   box-shadow: none; }
+.slides section li {
+  margin-bottom: 0.5em; }
+.slides section ul ul {
+  margin-top: .5em; }
+.slides section .big {
+  font-size: 2em; }
+.slides section .red {
+  color: #f13c3c; }
+.slides section .green {
+  color: #63DA63; }

@@ -46,8 +46,30 @@ $linkColorHover: lighten( $linkColor, 20% );
 	max-width: 100%
 }
 
-.reveal section img.no-canvas {
-	border: 0;
-	background: none;
-	box-shadow: none;
+.slides section {
+
+	 img.no-canvas {
+		border: 0;
+		background: none;
+		box-shadow: none;
+	}
+
+	li {
+		margin-bottom: 0.5em;
+	}
+	ul ul {
+		margin-top: .5em;
+	}
+
+	.big {
+		font-size: 2em;
+	}
+
+	.red {
+		color: #f13c3c;
+	}
+
+	.green {
+		color: #63DA63;
+	}
 }

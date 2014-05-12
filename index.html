@@ -51,12 +51,146 @@
 				</section>
 
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+					<section>
+						<h1>Cos'è AngularJS?</h1>
+						<blockquote cite="https://docs.angularjs.org/guide/introduction">
+							&ldquo;AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly.&rdquo;
+						</blockquote>
+					</section>
+					<section>
+						<ul>
+							<li>Sviluppato a partire dal 2009 by Miško Hevery and Adam Abrons</li>
+							<li class="fragment">Rilasciato da Google con licenza open-source nel 2010</li>
+							<li class="fragment">Attualmente alla versione 1.2.16</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h1>Yet another MV* Framework?!</h1>
+					<img src="images/headliners-plugins-172440_621x295.png" alt="" class="no-canvas" />
+				</section>
+
+				<section>
+					<h1>Perché?</h1>
+					<ul>
+						<li class="fragment"><span class="big red">☠</span> i test... questi sconosciuti</li>
+						<li class="fragment"><span class="big red">☠</span> troppo codice <i>boilerplate</i> per configurare e inizializzare</li>
+						<li class="fragment"><span class="big red">☠</span> string templating sucks</li>
+						<li class="fragment"><span class="big red">☠</span> le view imperative non hanno controllo su <i>cosa è cambiato</i></li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h1>Soluzioni</h1>
+						<ul>
+							<li class="fragment"><h3><span class="big green">✌</span> Test-first</h3>
+								<ul>
+									<li class="fragment">Unit test con <a href="http://karma-runner.github.io/0.12/index.html" target="_blank">Karma</a> + <a href="http://jasmine.github.io/" target="_blank">Jasmine</a></li>
+									<li class="fragment">E2E test con <a href="https://github.com/angular/protractor" target="_blank">Protractor</a></li>
+								</ul>
+							</li>
+							<li class="fragment">
+								<h3><span class="big green">✌</span> MVVM, Data Binding e Dependency Injection</h3>
+								<ul>
+									<li class="fragment">Models talk to Views talk to Models</li>
+									<li class="fragment">Addio agli <em>event listeners</em></li>
+									<li class="fragment">Semplificazione contro sovra-ingegnerizzazione</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li><h3><span class="big green">✌</span> Templating basato sul DOM</h3>
+								<ul>
+									<li class="fragment">Si aggiorna solo ciò che serve <span class="fragment green">quando serve</span></li>
+								</ul>
+							<li class="fragment"><h3><span class="big green">✌</span> View dichiarative</h3>
+								<ul>
+									<li class="fragment">Estensione dell'HTML</li>
+									<li class="fragment">Si utilizzano classi e attributi per definire nuove interazioni</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<p>ma soprattutto...</p>
+						<h1 class="fragment"><span class="big green">✌</span> <i>No need for magic</i></h1>
+					</section>
+					<section>
+						<h2>Dirty checking</h2>
+						<h2 class="fragment roll-in">Observe Objects</h2>
+						<h2 class="fragment roll-in">Inheritance</h2>
+					</section>
+				</section>
+
+				<section data-background="images/dark-side.jpg">
+					<h1>The dark side</h1>
+					<ul>
+						<li class="fragment">Model ridotto all'osso</li>
+						<li class="fragment">Utility limitate</li>
+						<li class="fragment">SEO ???</li>
+						<li class="fragment"><i>Crappy-code</i> prone</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>Learning curve?</h1>
+					<p class="fragment">
+						<img src="images/js-learning-curves.jpeg" alt="" />
 					</p>
 				</section>
+
+				<section>
+					<h1>Let's code!</h1>
+					<pre><code>git clone https://github.com/dwightjack/angular-todolist.git</code></pre>
+				</section>
+
+
+
+<!--
+				<section>
+					<section>
+						<h1>Concetti chiave in AngularJS</h1>
+					</section>
+					<section>
+						<h2>Module</h2>
+						<p>&Egrave; un contenitore generico per applicazioni e funzionalità</p>
+					</section>
+					<section>
+						<h2>Model</h2>
+						<p>&Egrave; un semplice oggetto JavaScript</p>
+						<pre><code>
+var model = { name: 'John', surname: 'Doe' };
+
+</code></pre>
+					</section>
+					<section>
+						<h2>View / Templates</h2>
+						<p>La view è generata internamente da AngularJS</p>
+						<p>Il template è un documento HTML con attributi custom chiamati <em><strong>direttive</strong></em></p>
+					</section>
+					<section>
+						<h2>Directive</h2>
+						<p>Estende le funzionalità base di HTML</p>
+					</section>
+					<section>
+						<h2>Scope</h2>
+						<p>&Egrave; il collante fra model e view</p>
+					</section>
+					<section>
+						<h2>Controller</h2>
+						<p>Crea un nuovo scope</p>
+						<p>Permette di alterare ed estende lo scope</p>
+					</section>
+					<section>
+						<h2>Servizio</h2>
+						<p>Gestisce i dati di un'applicazione (stato, API esterne, ...) e ne permette la condivisione fra le diverse parti del sistema</p>
+					</section>
+				</section> -->
+
 
 			</div>
 
